@@ -513,7 +513,7 @@ body {
 }
 
 .info-item1 {
-    flex: 0 0 30%; /* Three columns */
+    /* Three columns */
     max-width: 100%;
    
     padding: 15px;
