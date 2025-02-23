@@ -9,6 +9,7 @@ const navList = nav.querySelectorAll('li');
 const totalNavList = navList.length;
 const allSection = document.querySelectorAll('.section');
 const totalSection = allSection.length;
+const toal=querySelectorAll('to')
 
 for(let i = 0; i < totalNavList; i++) {
     const a = navList[i].querySelector('a');
