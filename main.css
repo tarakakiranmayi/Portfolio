@@ -69,6 +69,7 @@ body { line-height: 1.5; font-size: 16px; font-family: 'Poppins', sans-serif; }
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;
         animation: glow 1.5s infinite alternate;
+        border-bottom: 2px solid white;
     }
     
     /* Optional Glow Effect */
@@ -217,7 +218,7 @@ body { line-height: 1.5; font-size: 16px; font-family: 'Poppins', sans-serif; }
 /* HOME */
 
 .home { min-height: 100vh; display: flex; color: var(--text-black900); }
-    .home .home-info { flex: 0 0 60%; max-width: 60%; }
+    .home .home-info { flex: 0 0 60%; max-width: 60%;  }
         h3.hello { font-size: 28px; margin: 15px 0; }
             h3.hello span { font-family: 'Clicker Script', cursive; font-size: 30px; font-weight: 700; color: var(--skin-color); }
         h3.profession { font-size: 30px; margin: 15px 0; }
@@ -307,7 +308,7 @@ body { line-height: 1.5; font-size: 16px; font-family: 'Poppins', sans-serif; }
 @media (max-width: 991px) {
 
     .home .home-info { flex: 0 0 100%; max-width: 100%; }
-    .home .home-img { display: none; }
+    
 
     .about .about-content .skills, .about .about-content .personal-info, .about .about-content .experience, .about .about-content .education { flex: 0 0 100%; max-width: 100%; }
 
